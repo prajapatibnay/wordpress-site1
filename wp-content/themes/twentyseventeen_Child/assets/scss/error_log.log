@@ -1,0 +1,36 @@
+03/17/20 11:12:24: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:12:56: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:12:56: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:13:24: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:13:56: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:14:04: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:14:24: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:14:56: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:15:24: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:15:36: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:16:11: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:16:25: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:16:43: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:17:11: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:17:26: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:18:04: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:18:23: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:18:24: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:18:26: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:18:51: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:19:23: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:19:24: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:19:27: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:20:05: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:20:23: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:20:25: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:20:28: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/17/20 11:21:03: style.scss - ".footer-information.footer-information-header.lines-on-sidesh5" failed to @extend "%lines-on-sides". The selector "%lines-on-sides" was not found.: line: 59
+03/18/20 10:50:26: style.scss - parse error: failed at `background-color: ;` (stdin) on line 192
+03/18/20 10:51:24: style.scss - parse error: failed at `background-color: ;` (stdin) on line 195
+03/18/20 10:51:35: style.scss - parse error: failed at `background-color: ;` (stdin) on line 195
+03/18/20 10:51:50: style.scss - parse error: failed at `background-color: ;` (stdin) on line 195
+03/18/20 10:51:50: style.scss - parse error: failed at `background-color: ;` (stdin) on line 195
+03/18/20 10:51:53: style.scss - parse error: failed at `background-color: ;` (stdin) on line 195
+03/18/20 10:52:06: style.scss - parse error: failed at `background-color: ;` (stdin) on line 195
+03/18/20 10:52:54: style.scss - parse error: failed at `background-color: ;` (stdin) on line 195

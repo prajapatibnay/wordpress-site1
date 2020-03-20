@@ -1,0 +1,154 @@
+@import url("../twentyseventeen/style.css");
+/*
+ Theme Name:   twentyseventeen_child
+ Theme URI:    http://www.qodemedia.com/
+ Description:  twentyseventeen Child Theme
+ Author:       Anil Suwal
+ Author URI:   http://www.qodemedia.com/
+ Template:     twentyseventeen
+ Version:      1.0.0
+ */
+/* =Theme customization starts here
+ ------------------------------------------------------- */
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('assets/fonts/ProximaNova.eot');
+  src: local('☺'), url('assets/fonts/ProximaNova.woff') format('woff'), url('assets/fonts/ProximaNova.ttf') format('truetype'), url('assets/fonts/ProximaNova.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*-------------------------- Styling ----------------------------*/
+/*--------------------------- Common Css For All -----------------*/
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+.widget {
+  padding: 0;
+}
+/*-----------------Header/Menu CSS ------------------------ */
+.header-luxliss {
+  background-color: #e9d2c0;
+  padding: 10px;
+}
+.header-luxliss a img {
+  width: auto;
+  max-height: 55px;
+}
+.main-menu-bar {
+  background-color: #7f7f7f;
+  padding: 10px 0;
+}
+.main-menu-bar .menu-main-menu-container ul#top-menu {
+  text-align: center;
+}
+.main-menu-bar .menu-main-menu-container ul li {
+  border-left: 1px solid #fff;
+}
+.main-menu-bar .menu-main-menu-container ul li:last-child {
+  border-right: 1px solid #fff;
+}
+.main-menu-bar .menu-main-menu-container ul li a {
+  color: #fff;
+  font-size: 12px;
+  padding: 0 110px;
+}
+.main-menu-bar .menu-main-menu-container ul li a span {
+  display: block;
+  border-top: 1px solid #fff;
+  padding-top: 2px;
+}
+/*-----------------Home-Page-Banner CSS ------------------------ */
+.homepage-banner {
+  background: #222;
+}
+.homepage-banner .visual-area video {
+  display: block;
+}
+/*-----------------Home-Page-Blog CSS ------------------------ */
+.homepage-blog-section {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+.homepage-blog-section h5#blog-header {
+  padding: 10px 0;
+  margin: 0;
+}
+.homepage-blog-section .blog-section {
+  background-color: #fff;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.homepage-blog-section .blog-section .blog-section-image img:hover {
+  opacity: 0.75;
+}
+.homepage-blog-section .blog-section .blog-section-content {
+  padding: 10px;
+}
+.homepage-blog-section .blog-section .blog-section-content p {
+  text-align: center;
+}
+.homepage-blog-section .blog-section .blog-section-content .btn {
+  color: #839582;
+  text-align: right;
+  border: 1px solid;
+  float: right;
+}
+.homepage-blog-section .blog-section .blog-section-content .btn:hover {
+  color: #e9d2c0;
+}
+/*-----------------Footer CSS ------------------------ */
+.first-footer-contents, .second-footer-contents {
+  background-color: #b6bde0;
+  padding: 40px 0;
+}
+.first-footer-contents h4, .second-footer-contents h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.first-footer-contents h5, .second-footer-contents h5 {
+  font-size: 18px;
+  color: #666;
+}
+.second-footer-contents {
+  background-color: #fff;
+}
+.footer-copyright {
+  background-color: #1f2041;
+  padding: 20px 0;
+}
+.footer-copyright p {
+  color: #fff;
+  margin: 0;
+}
+/* ----------- Inner Page Css Start ------------- */
+/* --- Inner Page Common Css --- */
+.inner-page-banner {
+  padding: 100px 0;
+}
+.inner-page-banner h4 {
+  color: #fff;
+}
+.inner-page-banner h4 span {
+  display: block;
+}
+.inner-page-banner p {
+  color: #fff;
+}
+/* --- Acess Page Css --- */
+.page-content {
+  padding: 40px 0;
+}
+/* --- Recruit Page Css --- */
+.form_customer {
+  padding: 30px 0;
+}
+.form_customer .spacing {
+  padding: 10px 0;
+}
+/* ----------- Inner Page Css End ------------- */
+/*-------Responsive design---------*/

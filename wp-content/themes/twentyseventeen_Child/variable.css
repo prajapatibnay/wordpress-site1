@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('assets/fonts/ProximaNova.eot');
+  src: local('☺'), url('assets/fonts/ProximaNova.woff') format('woff'), url('assets/fonts/ProximaNova.ttf') format('truetype'), url('assets/fonts/ProximaNova.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
