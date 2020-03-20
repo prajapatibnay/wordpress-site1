@@ -102,20 +102,19 @@ a:focus {
   color: #e9d2c0;
 }
 /*-----------------Footer CSS ------------------------ */
-.first-footer-contents, .second-footer-contents {
-  background-color: #b6bde0;
+.first-footer-contents, .second-footer-contents, .third-footer-contents {
+  background-color: #fffaf0;
   padding: 40px 0;
 }
-.first-footer-contents h4, .second-footer-contents h4 {
-  font-size: 20px;
+.first-footer-contents h4, .second-footer-contents h4, .third-footer-contents h4 {
+  font-size: 26px;
   font-weight: 600;
-}
-.first-footer-contents h5, .second-footer-contents h5 {
-  font-size: 18px;
-  color: #666;
 }
 .second-footer-contents {
   background-color: #fff;
+}
+.third-footer-contents {
+  background-color: #ecf7d7;
 }
 .footer-copyright {
   background-color: #1f2041;
@@ -140,15 +139,46 @@ a:focus {
   color: #fff;
 }
 /* --- Acess Page Css --- */
-.page-content {
+.contact-section {
+  background: linear-gradient(180deg, #382b1d, #684f35);
   padding: 40px 0;
 }
+.contact-section .contact-info h5 {
+  font-size: 18px;
+  color: #fff;
+}
+.contact-section .contact-info h5 span {
+  display: block;
+}
+.contact-section .contact-info a {
+  color: #fff;
+  font-size: 42px;
+}
+.contact-section .google-map iframe {
+  margin: 0;
+}
 /* --- Recruit Page Css --- */
+.application-requirement {
+  background-color: #fffaf0;
+  padding: 40px 0;
+}
+.application-requirement h4 {
+  font-size: 26px;
+}
 .form_customer {
+  background: linear-gradient(180deg, #382b1d, #684f35);
   padding: 30px 0;
 }
 .form_customer .spacing {
   padding: 10px 0;
+}
+.form_customer h4 {
+  font-size: 22px;
+  color: #fff;
+}
+.form_customer h5 {
+  font-size: 14px;
+  color: #fff;
 }
 /* ----------- Inner Page Css End ------------- */
 /*-------Responsive design---------*/

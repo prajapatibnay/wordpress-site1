@@ -21,19 +21,13 @@ Template Name: Inner Page Template
 
 <section class="page-content">
     <?php 
-        if ( have_posts() ) :
-            while ( have_posts() ) : the_post(); ?>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <?php the_content(); ?>
-                        </div>
-                        <!-- End of the loop. -->
-                    </div>
-                </div>
-           <?php endwhile;
-        endif; 
-    ?>
+    if ( have_posts() ) :
+        while ( have_posts() ) : the_post(); ?>
+            <?php the_content(); ?>
+            <!-- End of the loop. -->
+        <?php endwhile;
+    endif; 
+?>
 </section>
 
 <?php get_footer(); ?>

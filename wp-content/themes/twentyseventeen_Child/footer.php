@@ -38,6 +38,18 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="third-footer-contents">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<?php if ( is_active_sidebar( 'third-footer-widget-area'  )){
+						dynamic_sidebar( 'third-footer-widget-area' );
+					} ?>
+				</div>
+			</div>
+		</div>
+	</section>
 	
 	<section class="footer-copyright">
 		<div class="container">

@@ -130,23 +130,23 @@ a:focus {
 
 
 /*-----------------Footer CSS ------------------------ */
-.first-footer-contents, .second-footer-contents{
-	background-color: #b6bde0;
+.first-footer-contents, .second-footer-contents, .third-footer-contents{
+	background-color: #fffaf0;
 	padding: 40px 0;
 	
 	h4{
-		font-size: 20px;
+		font-size: 26px;
 		font-weight: 600;
-	}
-	
-	h5{
-		font-size: 18px;
-		color: #666666;
 	}
 }
 
 .second-footer-contents{
 	background-color: #fff;
+}
+
+
+.third-footer-contents{
+	background-color: #ecf7d7;
 }
 
 .footer-copyright{
@@ -178,16 +178,59 @@ a:focus {
 }
 
 /* --- Acess Page Css --- */
-.page-content{
+.contact-section{
+	background: linear-gradient(180deg, #382b1d, #684F35) ;
 	padding: 40px 0;
+
+	.contact-info{
+		h5{
+			font-size: 18px;
+			color: #fff; 
+
+			span{
+				display: block;
+			}
+		}
+
+		a{
+			color: #fff;
+    		font-size: 42px;
+		}
+	}
+
+	.google-map{
+		iframe{
+			margin: 0;
+		}
+	}
 }
 
 /* --- Recruit Page Css --- */
+.application-requirement{
+	background-color: #fffaf0;
+	padding: 40px 0;
+
+	h4{
+		font-size: 26px;
+	}
+}
+
 .form_customer{
+	background: linear-gradient(180deg, #382b1d, #684F35);
 	padding: 30px 0;
 	
 	.spacing{
 		padding: 10px 0;
+	}
+
+	h4{
+		font-size: 22px;
+		color: #fff;
+	}
+
+	h5{
+		font-size: 14px;
+		color: #fff;
 	}
 }
 
