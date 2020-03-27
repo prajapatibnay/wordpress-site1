@@ -32,7 +32,7 @@
 	<section class="header-luxliss">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6 col-12">
 					<div class="header-logo">
 						<!-- <a href="#"><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/luxliss-logo.png"></a> -->
 						<?php
@@ -44,7 +44,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6 col-12">
 					<div class="header-contact">
 						<a href="tel:080-9607-1151"><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/header_tel.png"></a>
 					</div>
@@ -52,6 +52,14 @@
 			</div>
 		</div>
 	</section>
+
+<?php if ( is_home() ) : ?>
+	<section class="homepage-banner">
+		<div class="visual-area">
+			<?php wptutsplus_home_page_banner(); ?>
+		</div>
+	</section>
+<?php endif; ?>
 	
 	<section class="main-menu-bar">
 		<div class="container-fluid">

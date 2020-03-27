@@ -36,6 +36,7 @@ a:focus {
 		img{
 			width: auto;
 			max-height: 55px;
+			float: right;
 		}
 	}
 }
@@ -71,12 +72,30 @@ a:focus {
 	}
 }
 
+// Home Page Styling Start
 /*-----------------Home-Page-Banner CSS ------------------------ */
 .homepage-banner{
 	background: #222;
 	
 	.visual-area{
-		video{
+		.banner-box{
+			img{
+				width: 100%;
+				height: 760px;
+			}
+		}
+	}
+}
+
+/*-----------------Home-Page-Intro-Rogerio CSS ------------------------ */
+.intro-rogerio{
+	background: #382b1d;
+
+	p{
+		@extend %style-for-p;
+		color: #fff;
+
+		span{
 			display: block;
 		}
 	}
@@ -85,9 +104,9 @@ a:focus {
 /*-----------------Home-Page-Blog CSS ------------------------ */
 .homepage-blog-section{
 	background-color: #f4f4f4;
-	padding: 40px 0;
 
 	h5#blog-header{
+		@extend %style-main-title;
 		padding: 10px 0;
 		margin: 0;
 	}
@@ -127,16 +146,14 @@ a:focus {
 		}
 	}
 }
-
+// Home Page Styling End
 
 /*-----------------Footer CSS ------------------------ */
 .first-footer-contents, .second-footer-contents, .third-footer-contents{
 	background-color: #fffaf0;
-	padding: 40px 0;
 	
 	h4{
-		font-size: 26px;
-		font-weight: 600;
+		@extend %style-main-title;
 	}
 }
 
@@ -154,10 +171,12 @@ a:focus {
 	padding: 20px 0;
 	
 	p{
+		@extend %style-for-p;
 		color: #fff;
 		margin: 0;
 	}
 }
+
 
 /* ----------- Inner Page Css Start ------------- */
 /* --- Inner Page Common Css --- */
@@ -165,6 +184,7 @@ a:focus {
 	padding: 100px 0;
 
 	h4{
+		@extend %style-main-title;
 		color: #fff;
 
 		span{
@@ -177,10 +197,47 @@ a:focus {
 	}
 }
 
+/* --- System Page Css --- */
+.system-page-contents{
+	h2{
+		@extend %style-main-title;
+
+		span{
+			display: block;
+			font-size: 20px;
+		}
+	}
+
+	p{
+		@extend %style-for-p;
+		line-height: 36px;
+		margin: 10px 0;
+	}
+
+	ul li{
+		text-align: left;
+		font-size: 24px;
+		margin-left: 20%;
+	}
+
+	table{
+		margin: 0 auto;
+		width: 65%;
+		margin-bottom: 60px;
+
+		td{
+			font-size: 28px;
+		}
+
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		  }
+	}
+}
+
 /* --- Acess Page Css --- */
 .contact-section{
 	background: linear-gradient(180deg, #382b1d, #684F35) ;
-	padding: 40px 0;
 
 	.contact-info{
 		h5{
@@ -208,10 +265,9 @@ a:focus {
 /* --- Recruit Page Css --- */
 .application-requirement{
 	background-color: #fffaf0;
-	padding: 40px 0;
 
 	h4{
-		font-size: 26px;
+		@extend %style-main-title;
 	}
 }
 

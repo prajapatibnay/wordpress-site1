@@ -17,19 +17,19 @@
 
 get_header(); ?>
 
-<section class="homepage-banner">
+<section class="intro-rogerio padding-tb">
 	<div class="container">
 		<div class="row">
-			<div class="col-12">
-				<div class="visual-area">
-					<?php wptutsplus_home_page_banner(); ?>
-				</div>
+			<div class="col-md-12 text-center">
+				<p>岐阜駅徒歩5分圏内にNEW OPEN<span>完全予約制・完全個室のメンズエステサロン</span></p>
+				<p>お客様一人ひとりに愛情を込めた<span>至福のマッサージをご提供します。</span></p>
+				<p>落ち着いた完全個室のプライベート空間で<span>あなたに合ったセラピストと二人きり、</span><span>貴方だけの秘密の贅沢をご堪能ください。</span></p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="homepage-blog-section">
+<section class="homepage-blog-section padding-tb">
 	<?php 
 		get_template_part('InnerTemplate/blogPageTemplate');
 	?>

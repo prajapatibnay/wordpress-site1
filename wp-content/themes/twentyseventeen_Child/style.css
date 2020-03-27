@@ -17,6 +17,22 @@
   font-weight: normal;
   font-style: normal;
 }
+.no-padding {
+  padding: 0;
+}
+.padding-tb {
+  padding: 40px 0;
+}
+.homepage-blog-section h5#blog-header, .first-footer-contents h4, .second-footer-contents h4, .third-footer-contents h4, .inner-page-banner h4, .system-page-contents h2, .application-requirement h4 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+}
+.intro-rogerio p, .footer-copyright p, .system-page-contents p {
+  color: #000;
+  font-size: 16px;
+  line-height: normal;
+}
 /*-------------------------- Styling ----------------------------*/
 /*--------------------------- Common Css For All -----------------*/
 a:hover {
@@ -36,6 +52,7 @@ a:focus {
 .header-luxliss a img {
   width: auto;
   max-height: 55px;
+  float: right;
 }
 .main-menu-bar {
   background-color: #7f7f7f;
@@ -64,13 +81,23 @@ a:focus {
 .homepage-banner {
   background: #222;
 }
-.homepage-banner .visual-area video {
+.homepage-banner .visual-area .banner-box img {
+  width: 100%;
+  height: 760px;
+}
+/*-----------------Home-Page-Intro-Rogerio CSS ------------------------ */
+.intro-rogerio {
+  background: #382b1d;
+}
+.intro-rogerio p {
+  color: #fff;
+}
+.intro-rogerio p span {
   display: block;
 }
 /*-----------------Home-Page-Blog CSS ------------------------ */
 .homepage-blog-section {
   background-color: #f4f4f4;
-  padding: 40px 0;
 }
 .homepage-blog-section h5#blog-header {
   padding: 10px 0;
@@ -104,11 +131,6 @@ a:focus {
 /*-----------------Footer CSS ------------------------ */
 .first-footer-contents, .second-footer-contents, .third-footer-contents {
   background-color: #fffaf0;
-  padding: 40px 0;
-}
-.first-footer-contents h4, .second-footer-contents h4, .third-footer-contents h4 {
-  font-size: 26px;
-  font-weight: 600;
 }
 .second-footer-contents {
   background-color: #fff;
@@ -138,10 +160,34 @@ a:focus {
 .inner-page-banner p {
   color: #fff;
 }
+/* --- System Page Css --- */
+.system-page-contents h2 span {
+  display: block;
+  font-size: 20px;
+}
+.system-page-contents p {
+  line-height: 36px;
+  margin: 10px 0;
+}
+.system-page-contents ul li {
+  text-align: left;
+  font-size: 24px;
+  margin-left: 20%;
+}
+.system-page-contents table {
+  margin: 0 auto;
+  width: 65%;
+  margin-bottom: 60px;
+}
+.system-page-contents table td {
+  font-size: 28px;
+}
+.system-page-contents table tr:nth-child(even) {
+  background-color: #ddd;
+}
 /* --- Acess Page Css --- */
 .contact-section {
   background: linear-gradient(180deg, #382b1d, #684f35);
-  padding: 40px 0;
 }
 .contact-section .contact-info h5 {
   font-size: 18px;
@@ -160,10 +206,6 @@ a:focus {
 /* --- Recruit Page Css --- */
 .application-requirement {
   background-color: #fffaf0;
-  padding: 40px 0;
-}
-.application-requirement h4 {
-  font-size: 26px;
 }
 .form_customer {
   background: linear-gradient(180deg, #382b1d, #684f35);
@@ -182,3 +224,68 @@ a:focus {
 }
 /* ----------- Inner Page Css End ------------- */
 /*-------Responsive design---------*/
+@media only screen and (max-width: 1725px) {
+  .main-menu-bar .menu-main-menu-container ul li a {
+    padding: 0 65px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .homepage-banner .visual-area .banner-box img {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .main-menu-bar .menu-main-menu-container ul li a {
+    padding: 0 45px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .main-menu-bar {
+    padding: 0;
+  }
+  .main-menu-bar .main-navigation {
+    display: none;
+  }
+  #wprmenu_bar .menu_title a {
+    top: 2px;
+    color: #fff;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .single-blog-section .single-page-image {
+    margin-bottom: 25px;
+  }
+  .system-page-contents table {
+    width: 100%;
+  }
+  .system-page-contents table td {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .custom-logo-link {
+    display: block;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+  .header-luxliss a img {
+    margin: auto;
+    display: block;
+    float: none;
+  }
+  .system-page-contents h2 {
+    font-size: 24px;
+  }
+  .system-page-contents ul li {
+    font-size: 22px;
+    margin-left: 17%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .contact-section .contact-info a {
+    font-size: 32px;
+  }
+  .system-page-contents table td {
+    font-size: 22px;
+  }
+}

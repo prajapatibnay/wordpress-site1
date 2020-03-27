@@ -27,7 +27,7 @@ Template Name: Inner Page Template
             <!-- End of the loop. -->
         <?php endwhile;
     endif; 
-?>
+    ?>
 </section>
 
 <?php get_footer(); ?>

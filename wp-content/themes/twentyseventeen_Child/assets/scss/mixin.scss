@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1725px) {
+    .main-menu-bar .menu-main-menu-container ul li a{
+        padding: 0 65px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .homepage-banner .visual-area .banner-box img{
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .main-menu-bar .menu-main-menu-container ul li a{
+        padding: 0 45px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-menu-bar{
+        padding: 0;
+        
+        .main-navigation{
+            display: none;
+        }
+    }
+
+    #wprmenu_bar .menu_title a {
+        top: 2px;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .single-blog-section .single-page-image{
+        margin-bottom: 25px;
+    }
+    .system-page-contents table{
+        width: 100%;
+        
+        td {
+            font-size: 24px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .custom-logo-link{
+        display: block;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .header-luxliss a img{
+        margin: auto;
+        display: block;
+        float: none;
+    }
+    .system-page-contents h2{
+        font-size: 24px;
+    }
+    .system-page-contents ul li{
+        font-size: 22px;
+        margin-left: 17%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .contact-section .contact-info a{
+        font-size: 32px;
+    }
+    .system-page-contents table td {
+        font-size: 22px;
+    }
+}

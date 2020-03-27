@@ -15,7 +15,7 @@
 ?>
 
 <footer>
-	<section class="first-footer-contents">
+	<section class="first-footer-contents padding-tb">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -27,7 +27,7 @@
 		</div>
 	</section>
 
-	<section class="second-footer-contents">
+	<section class="second-footer-contents padding-tb">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -39,7 +39,7 @@
 		</div>
 	</section>
 
-	<section class="third-footer-contents">
+	<section class="third-footer-contents padding-tb">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

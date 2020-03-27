@@ -8,8 +8,8 @@ Template Name: Blog Page Template
 <!-- Blog Page Code For homepage-blog-section -->
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
-			<h5 id="blog-header">Blog-Section</h5>
+		<div class="col-md-12 text-center">
+			<h5 id="blog-header">本日の出勤</h5>
 			<div class="border-bottom"></div>
 		</div>
 
@@ -32,7 +32,11 @@ Template Name: Blog Page Template
 							
 							<div class="blog-section-content">
 									<h4 class="text-center"><?php the_title(); ?></h4>
-									<p class="text-center"><?php the_content(); ?></p>
+									<p class="text-center">
+										<?php
+											$content = substr(get_the_content(), 0, 20);
+											echo $content;									
+										?></p>
 									<button type="button" class="btn btn-default">Read more</button>
 
 				<!-- 				<p class="by-author">by <strong><?php the_author();?></strong></p> -->
